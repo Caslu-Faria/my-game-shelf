@@ -1,0 +1,10 @@
+{
+  "name": "@my-game-shelf/config",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"console.log('config package has no build step yet')\"",
+    "lint": "node -e \"console.log('lint not configured yet')\"",
+    "typecheck": "node -e \"console.log('config package has no typecheck step yet')\""
+  }
+}

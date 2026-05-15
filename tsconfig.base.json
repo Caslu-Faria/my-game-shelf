@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@my-game-shelf/contracts/*": ["packages/contracts/src/*"],
+      "@my-game-shelf/domain/*": ["packages/domain/src/*"],
+      "@my-game-shelf/ui/*": ["packages/ui/src/*"]
+    }
+  }
+}

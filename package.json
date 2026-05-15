@@ -1,0 +1,20 @@
+{
+  "name": "my-game-shelf",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace @my-game-shelf/web run dev",
+    "dev:api": "npm --workspace @my-game-shelf/api run dev",
+    "dev:worker": "npm --workspace @my-game-shelf/worker run dev",
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces",
+    "typecheck": "npm run typecheck --workspaces"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
