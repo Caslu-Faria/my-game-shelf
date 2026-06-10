@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
+import "./globals.css";
+
 export const metadata: Metadata = {
   title: "My Game Shelf",
   description: "Catalogo pessoal de jogos com foco em biblioteca, progresso e integracoes."

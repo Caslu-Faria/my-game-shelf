@@ -1,13 +1,8 @@
-const approvedModules = [
-  "auth",
-  "users",
-  "catalog",
-  "library",
-  "progress",
-  "notes",
-  "tasks",
-  "integrations/steam"
-];
+import { createApiServer } from "./modules/library/libraryRoutes.ts";
 
-console.log("my-game-shelf api scaffold");
-console.log("approved modules:", approvedModules.join(", "));
+const port = Number(process.env.PORT ?? 3001);
+const server = createApiServer();
+
+server.listen(port, () => {
+  console.log(`my-game-shelf api listening on http://localhost:${port}`);
+});
