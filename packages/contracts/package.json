@@ -9,5 +9,8 @@
     "build": "tsc --project tsconfig.json",
     "lint": "node -e \"console.log('lint not configured yet')\"",
     "typecheck": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@my-game-shelf/domain": "0.1.0"
   }
 }

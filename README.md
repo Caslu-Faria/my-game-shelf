@@ -19,8 +19,15 @@ packages/
 
 docs/
   architecture.md
+  library-mvp.md
   roadmap.md
 ```
+
+## Library MVP
+
+A primeira fatia vertical da biblioteca esta documentada em `docs/library-mvp.md`.
+Ela inclui contratos compartilhados, validacoes de dominio, endpoints HTTP em memoria
+e uma tela web para adicionar, editar, remover, buscar e filtrar jogos.
 
 ## Decisoes iniciais
 
